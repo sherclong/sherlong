@@ -3206,10 +3206,31 @@ input, select, textarea {
 			width: 75em;
 		}
 
+		.wrapper > .inner1 {
+			padding: 0em 5em 3em 5em ;
+			max-width: 100%;
+			width: 75em;
+		}
+
+		.wrapper > .inner1 > .banner1 {
+			background-color: rgba(0, 0, 0, 0.05);
+			padding: 4em;
+			border-radius: 8px;
+			width: 100%;
+		}
+
+		.wrapper > .inner1 > .body1 {
+			padding: 2em 4em 2em 4em;
+		}
+
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
 					padding: 4em 4em 2em 4em ;
+				}
+
+				.wrapper > .inner1 {
+					padding: 0em 4em 2em 4em ;
 				}
 
 			}
@@ -3220,12 +3241,20 @@ input, select, textarea {
 					width: 100%;
 				}
 
+				.wrapper > .inner1 {
+					width: 100%;
+				}
+
 			}
 
 			@media screen and (max-width: 736px) {
 
 				.wrapper > .inner {
 					padding: 3em 2em 1em 2em ;
+				}
+
+				.wrapper > .inner1 {
+					padding: 0em 2em 1em 2em ;
 				}
 
 			}
@@ -3365,7 +3394,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #FAFAFA;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3385,6 +3414,25 @@ input, select, textarea {
 			flex: 1;
 			text-align: right;
 		}
+
+			#header h3 {
+				color: rgba(0, 0, 0, 0.75);
+				font-family: "Ubuntu", sans-serif;
+				display: block;
+				font-size: 1em;
+				letter-spacing: 0.15em;
+				line-height: 1.75;
+				outline: 0;
+				padding: 0.85em 0;
+				position: relative;
+				text-decoration: none;
+			}
+
+			#header a {
+				border: 0;
+				outline: 0;
+				text-decoration: none;
+			}
 
 			#header > nav > ul {
 				margin: 0;
@@ -3484,6 +3532,10 @@ input, select, textarea {
 		margin: 0 auto;
 	}
 
+	#header + #wrapper > .wrapper > .inner1 {
+		margin: 0 auto;
+	}
+
 /* Footer */
 
 	#sidebar + #wrapper + #footer {
@@ -3512,6 +3564,10 @@ input, select, textarea {
 	}
 
 	#header + #wrapper + #footer > .inner {
+		margin: 0 auto;
+	}
+
+	#header + #wrapper + #footer > .inner1 {
 		margin: 0 auto;
 	}
 
