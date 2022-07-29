@@ -3207,7 +3207,7 @@ input, select, textarea {
 		}
 
 		.wrapper > .inner1 {
-			padding: 0em 5em 3em 5em ;
+			padding: 0em 5em 0em 5em ;
 			max-width: 100%;
 			width: 75em;
 		}
@@ -3217,6 +3217,7 @@ input, select, textarea {
 			padding: 4em;
 			border-radius: 8px;
 			width: 100%;
+			overflow: auto;
 		}
 
 		.wrapper > .inner1 > .body1 {
@@ -3230,7 +3231,7 @@ input, select, textarea {
 				}
 
 				.wrapper > .inner1 {
-					padding: 0em 4em 2em 4em ;
+					padding: 0em 4em 0em 4em ;
 				}
 
 			}
@@ -3254,7 +3255,7 @@ input, select, textarea {
 				}
 
 				.wrapper > .inner1 {
-					padding: 0em 2em 1em 2em ;
+					padding: 0em 2em 0em 2em ;
 				}
 
 			}
