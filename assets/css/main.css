@@ -524,6 +524,7 @@ input, select, textarea {
 
 			.row.gtr-uniform {
 				margin-top: -1.5em;
+				max-width: 60% !important;
 			}
 
 				.row.gtr-uniform > * {
@@ -1257,6 +1258,7 @@ input, select, textarea {
 
 					.row.gtr-uniform {
 						margin-top: -1.5em;
+						max-width: 100% !important;
 					}
 
 						.row.gtr-uniform > * {
@@ -1557,6 +1559,10 @@ input, select, textarea {
 					box-sizing: border-box;
 				}
 
+				.row.gtr-unifom {
+					max-width: 100% !important;
+				}
+
 				.row.gtr-uniform > * > :last-child {
 					margin-bottom: 0;
 				}
@@ -1747,6 +1753,7 @@ input, select, textarea {
 
 					.row.gtr-uniform {
 						margin-top: -1.5em;
+						max-width: 100% !important;
 					}
 
 						.row.gtr-uniform > * {
